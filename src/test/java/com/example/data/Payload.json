@@ -1,0 +1,12 @@
+{
+    "payload": {
+        "example": {
+            "post": {
+                "users": {
+                    "name": "John Doe", 
+                    "job": "Software Engineer"
+                }
+            }
+        }
+    }
+}
