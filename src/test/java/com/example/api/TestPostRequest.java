@@ -17,7 +17,7 @@ public class TestPostRequest {
     private JsonObject payload;
     
     private void loadPayloadFromFile() {
-        try (FileReader reader = new FileReader("src/test/java/com/example/data/payload.json")) {
+        try (FileReader reader = new FileReader("src/test/java/com/example/data/Payload.json")) {
             payload = JsonParser.parseReader(reader)
                 .getAsJsonObject()
                 .getAsJsonObject("payload")

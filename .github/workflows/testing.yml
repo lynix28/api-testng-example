@@ -23,6 +23,7 @@ jobs:
               if: always()
               run: tar -cvf allure-results.tar ./target/allure-results/
             - name: Archieve test artifacts
+              if: always()
               uses: actions/upload-artifact@v3
               with:
                 name: allure-results
