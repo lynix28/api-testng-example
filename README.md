@@ -8,7 +8,7 @@ This project is contain API testing using TestNG
 
 - TestNG as test framework and assertion
 - Maven as test builder and runner
-- RestAssured as REST API module
+- RestAssured as REST API client module
 - Allure as test reporter
 
 ---
